@@ -1,0 +1,18 @@
+{
+  "ImageWidth": "2160",
+  "ImageLength": "3840",
+  "GPSInfo": {
+    "GPSImgDirectionRef": "M",
+    "GPSImgDirection": "52.0"
+  },
+  "ResolutionUnit": "2",
+  "ExifOffset": "240",
+  "Make": "Google",
+  "Model": "Pixel",
+  "Software": "HDR+ 1.0.281780091zd",
+  "Orientation": "1",
+  "DateTime": "2026:10:10 22:19:27",
+  "YCbCrPositioning": "1",
+  "XResolution": "72.0",
+  "YResolution": "72.0"
+}

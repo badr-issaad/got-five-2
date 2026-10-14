@@ -1,0 +1,261 @@
+{
+  "@@locale": "en",
+  "appTitle": "Got Five!",
+  "tagline": "Deduce your 5 hidden numbers before anyone else!",
+  "singlePlayer": "Single Player",
+  "multiplayer": "Online Multiplayer",
+  "tableMode": "Tabletop & Paper Mode",
+  "tutorial": "Interactive Tutorial",
+  "settings": "Settings",
+  "printMaterials": "Printable Sheets (PDF)",
+  "language": "Language",
+  "arabic": "العربية",
+  "english": "English",
+  "french": "Français",
+  "theme": "Theme",
+  "darkTheme": "Dark Mode",
+  "lightTheme": "Light Mode",
+  "systemTheme": "System Theme",
+  "soundEffects": "Sound Effects",
+  "hapticFeedback": "Haptic Feedback",
+  "reducedMotion": "Reduced Motion",
+  "accessibilityShapes": "Shape Indicators",
+  "accessibilityDesc": "Displays geometric symbols (triangle, circle, square, diamond, star) alongside colors for color-blind friendliness.",
+  "newGame": "New Game",
+  "resumeGame": "Resume Game",
+  "abandonGame": "Abandon Game",
+  "abandonConfirm": "Are you sure you want to abandon the current game?",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "close": "Close",
+  "back": "Back",
+  "done": "Done",
+  "selectOpponents": "Configure Opponents",
+  "playerCount": "Number of Players",
+  "yourName": "Your Name",
+  "aiDifficulty": "AI Difficulty",
+  "easy": "Easy",
+  "medium": "Medium",
+  "hard": "Hard",
+  "startGame": "Start Match",
+  "yourTurn": "Your Turn",
+  "waitingFor": "Turn: {name}",
+  "@waitingFor": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "step1Reveal": "Step 1: Reveal a Tile",
+  "step1RevealDesc": "Select a color to draw a random tile from the reserve into the common pool.",
+  "step2Clue": "Step 2: Choose a Clue",
+  "step2ClueDesc": "Pick 1 of the 6 pool tiles and ask for either a SORT or COMPARE clue.",
+  "poolTiles": "Common Pool",
+  "yourRack": "Your Stand (Ascending Order)",
+  "opponents": "Opponents",
+  "cluesReceived": "Clues Collected",
+  "sortClue": "Sort Clue (Order)",
+  "compareClue": "Compare Clue (Dots)",
+  "sortClueDesc": "Places the tile in one of 6 positions relative to your 5 hidden numbers.",
+  "compareClueDesc": "Ask if this tile has the same number of dots as one of your 5 stand tiles (Yes/No).",
+  "selectRackSlotToCompare": "Select which of your 5 tiles to compare dots with:",
+  "declareGotFive": "Announce \"GOT FIVE!\"",
+  "declareGotFiveTitle": "Declare Got Five!",
+  "declareGotFiveDesc": "You have ONLY ONE ATTEMPT! If all 5 numbers are correct, you win immediately. If any number is wrong, you are eliminated.",
+  "enterYourFiveNumbers": "Enter your 5 numbers in strictly ascending order:",
+  "submitGuess": "Submit Guess",
+  "incorrectGuessFormat": "Numbers must be between 1 and 60 in strictly ascending order.",
+  "gameOver": "Game Over",
+  "victory": "Victory!",
+  "eliminated": "Eliminated!",
+  "congratulations": "Congratulations! You correctly deduced all 5 numbers!",
+  "eliminationNotice": "Unfortunately, your guess was incorrect. You have been eliminated.",
+  "lastPlayerStanding": "All other players were eliminated. You win!",
+  "playAgain": "Play Again",
+  "backToHome": "Return to Home",
+  "deductionSheet": "Deduction Sheet",
+  "crossOut": "Cross Out",
+  "undo": "Undo",
+  "clearAll": "Clear All",
+  "notes": "Notes",
+  "candidateNumbers": "Candidate Numbers",
+  "green": "Green",
+  "pink": "Pink",
+  "blue": "Blue",
+  "red": "Red",
+  "yellow": "Yellow",
+  "dots": "{count, plural, =1{1 dot} other{{count} dots}}",
+  "@dots": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "slotBefore": "Before all (< {color})",
+  "@slotBefore": {
+    "placeholders": {
+      "color": { "type": "String" }
+    }
+  },
+  "slotBetween": "Between {color1} and {color2}",
+  "@slotBetween": {
+    "placeholders": {
+      "color1": { "type": "String" },
+      "color2": { "type": "String" }
+    }
+  },
+  "slotAfter": "After all (> {color})",
+  "@slotAfter": {
+    "placeholders": {
+      "color": { "type": "String" }
+    }
+  },
+  "matchYes": "YES (Same dots)",
+  "matchNo": "NO (Different dots)",
+  "tutorialTitle": "How to Play Got Five!",
+  "tutorialStep1Title": "Goal of the Game",
+  "tutorialStep1Desc": "Be the first to correctly deduce the 5 numbers on your stand. Your 5 tiles are always arranged in strictly ascending order (from smallest to largest). You can see their colors, but NOT their numbers!",
+  "tutorialStep2Title": "Opponents & Pool",
+  "tutorialStep2Desc": "You CAN see the numbers and dots of all your opponents' tiles, plus the 5 tiles in the common pool! Cross them off on your deduction sheet immediately.",
+  "tutorialStep3Title": "Step 1: Reveal a Tile",
+  "tutorialStep3Desc": "On your turn, choose a color to draw a tile from the reserve and add it to the pool, expanding it to 6 tiles.",
+  "tutorialStep4Title": "Step 2: Ask for a Clue",
+  "tutorialStep4Desc": "Choose 1 of the 6 pool tiles for either SORT (determines where it fits among your 5 numbers) or COMPARE (asks if it shares the same dot count with one of your tiles).",
+  "tutorialStep5Title": "The Got Five Guess",
+  "tutorialStep5Desc": "When you have deduced your 5 numbers, shout \"GOT FIVE!\" and declare them. You have only 1 attempt. Correct = Instant Win! Wrong = Eliminated!",
+  "nextStep": "Next Step",
+  "previousStep": "Previous Step",
+  "finishTutorial": "Got It! Let's Play",
+  "pdfSheetsTitle": "Printable Game Materials (PDF)",
+  "pdfA4ColorSheet": "Color A4 Deduction Sheet",
+  "pdfBwEcoSheet": "Ink-Saver B&W Deduction Sheet",
+  "pdfRulesSummary": "Official Rules Summary (A4)",
+  "pdfCutoutTiles": "Cut-Out Tiles & Stands Sheet",
+  "downloadOrPrint": "Print / Export PDF",
+  "offlineReady": "Generated 100% offline inside the app",
+  "onlineRooms": "Online Multiplayer Rooms",
+  "roomCode": "Room Code",
+  "createRoom": "Create Room",
+  "joinRoom": "Join Room",
+  "waitingForPlayers": "Waiting for players to join...",
+  "ready": "Ready",
+  "startOnlineMatch": "Start Match",
+  "tabletopPaperModeTitle": "Tabletop & Paper Modes",
+  "tabletopModeADesc": "Connected Phones + Paper Notes: Play digitally while tracking deductions on a printed paper sheet.",
+  "tabletopModeBDesc": "Single Shared Phone: One phone manages the game. Pass it around with a privacy screen between turns.",
+  "tabletopModeCDesc": "Helper Phone + Physical Tiles: Use the phone to manage clues for real physical tiles without peeking.",
+  "passPhoneTo": "Pass the phone to {player}",
+  "@passPhoneTo": {
+    "placeholders": {
+      "player": { "type": "String" }
+    }
+  },
+  "privacyScreenNotice": "Tap when you are ready to view your clues. Keep the screen hidden from opponents!",
+  "revealMyTurn": "I am {player} - Start My Turn",
+  "@revealMyTurn": {
+    "placeholders": {
+      "player": { "type": "String" }
+    }
+  },
+  "myGuesses": "My Guesses",
+  "announceNumbers": "Announce My Numbers",
+  "showPosition": "Show Position",
+  "compareDots": "Compare Dots",
+  "confirmCompare": "Confirm Comparison",
+  "chooseColorToReveal": "Choose a color to reveal a tile.",
+  "chooseSharedTile": "Choose a shared tile.",
+  "chooseClueAction": "Show its position, or compare its dots.",
+  "tapTileToCompare": "Tap one of your 5 hidden tiles to compare dots.",
+  "clueSavedUpdateNotes": "Your clue is saved. Update your notes.",
+  "sameDots": "Same number of dots",
+  "differentDots": "Different number of dots",
+  "posFirst": "1st",
+  "posSecond": "2nd",
+  "posThird": "3rd",
+  "posFourth": "4th",
+  "posFifth": "5th",
+  "gapBeforeFirst": "Before 1st",
+  "gapBetween": "Between {pos1} & {pos2}",
+  "@gapBetween": {
+    "placeholders": {
+      "pos1": { "type": "String" },
+      "pos2": { "type": "String" }
+    }
+  },
+  "gapAfterLast": "After 5th",
+  "orderClueBeforeFirstDesc": "{number} is before your first tile ({color}). All 5 of your numbers are larger than {number}.",
+  "@orderClueBeforeFirstDesc": {
+    "placeholders": {
+      "number": { "type": "int" },
+      "color": { "type": "String" }
+    }
+  },
+  "orderClueBetweenDesc": "{number} is between your {pos1} ({color1}) and {pos2} ({color2}) tiles. Your first {count1} {count1, plural, =1{number is} other{numbers are}} smaller than {number}; your remaining {count2} {count2, plural, =1{is} other{are}} larger.",
+  "@orderClueBetweenDesc": {
+    "placeholders": {
+      "number": { "type": "int" },
+      "pos1": { "type": "String" },
+      "color1": { "type": "String" },
+      "pos2": { "type": "String" },
+      "color2": { "type": "String" },
+      "count1": { "type": "int" },
+      "count2": { "type": "int" }
+    }
+  },
+  "orderClueAfterLastDesc": "{number} is after your fifth tile ({color}). All 5 of your numbers are smaller than {number}.",
+  "@orderClueAfterLastDesc": {
+    "placeholders": {
+      "number": { "type": "int" },
+      "color": { "type": "String" }
+    }
+  },
+  "compareClueSameDesc": "Tile #{number} ({dots, plural, =1{1 dot} other{{dots} dots}}) has the SAME number of dots as your {pos} tile ({color}).",
+  "@compareClueSameDesc": {
+    "placeholders": {
+      "number": { "type": "int" },
+      "dots": { "type": "int" },
+      "pos": { "type": "String" },
+      "color": { "type": "String" }
+    }
+  },
+  "compareClueDiffDesc": "Tile #{number} ({dots, plural, =1{1 dot} other{{dots} dots}}) has a DIFFERENT number of dots than your {pos} tile ({color}).",
+  "@compareClueDiffDesc": {
+    "placeholders": {
+      "number": { "type": "int" },
+      "dots": { "type": "int" },
+      "pos": { "type": "String" },
+      "color": { "type": "String" }
+    }
+  },
+  "confirmAnnouncementTitle": "Confirm Your Five Numbers",
+  "oneAttemptWarning": "Warning: You have only ONE attempt in the entire game. If all 5 numbers are correct, you win immediately. If any number is wrong, you are eliminated.",
+  "confirmSubmission": "Submit Final Numbers",
+  "allCluesInGap": "Clues in this position ({count})",
+  "playerRevealedTile": "{player} revealed {number}",
+  "@playerRevealedTile": {
+    "placeholders": {
+      "player": { "type": "String" },
+      "number": { "type": "int" }
+    }
+  },
+  "computer": "Computer",
+  "inReserveCount": "{count} in reserve",
+  "@inReserveCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "comparedWithSlot": "Compared with Slot #{slot}",
+  "@comparedWithSlot": {
+    "placeholders": {
+      "slot": { "type": "int" }
+    }
+  },
+  "comparisonCluesForSlot": "Comparison Clues for Slot #{slot} ({count})",
+  "@comparisonCluesForSlot": {
+    "placeholders": {
+      "slot": { "type": "int" },
+      "count": { "type": "int" }
+    }
+  },
+  "targetHiddenTile": "Target Tile: Slot #{slot} ({color})"
+}
+

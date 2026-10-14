@@ -1,0 +1,25 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Rooms collection
+    match /rooms/{roomId} {
+      allow read: if request.auth != null;
+      allow create: if request.auth != null;
+      allow update: if request.auth != null;
+    }
+
+    // Games collection
+    match /games/{gameId} {
+      // FORBIDDEN: Secret master state cannot be accessed by client SDKs!
+      match /secret/{document} {
+        allow read, write: if false;
+      }
+
+      // Allowed: Players can ONLY read their own sanitized view
+      match /playerViews/{userId} {
+        allow read: if request.auth != null && request.auth.uid == userId;
+        allow write: if false; // Only Cloud Functions can update game views
+      }
+    }
+  }
+}

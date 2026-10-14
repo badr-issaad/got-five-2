@@ -1,0 +1,17 @@
+{
+ "photo": "C:\\Dev\\got five\\geoint-photos\\2026-10-10_22-33-56-262064+0000\\original\\IMG_20261010_231927.jpg",
+ "steps": {
+  "meta": {
+   "rc": 2,
+   "seconds": 4.9,
+   "error": "attempt #1. Sleeping 1.1783628s before the next attempt\nWARN Retry attempt #1. Sleeping 1.7969381s before the next attempt\nWARN Retry attempt #1. Sleeping 3.6085152s before the next attempt\nWARN Retry attempt #2. Sleeping 1.9790736s before the next attempt\nWARN Retry attempt #2. Sleeping 5.5924171s before the next attempt\nerror: Request failed after 3 retries in 4.3s\n  cause: Failed to fetch: https://pypi.org/simple/tzdata/\n  cause: error sending request for url (https://pypi.org/simple/tzdata/)\n  cause: client error (Connect)\n  cause: dns error\n  cause: No such host is known. (os error 11001)",
+   "stdout_tail": ""
+  },
+  "intake": {
+   "rc": 2,
+   "seconds": 12.9,
+   "error": "WARN Retry attempt #0. Sleeping 1.7661951s before the next attempt\nWARN Retry attempt #1. Sleeping 3.9680465s before the next attempt\nWARN Retry attempt #2. Sleeping 6.9795483s before the next attempt\nerror: Request failed after 3 retries in 12.8s\n  cause: Failed to fetch: https://pypi.org/simple/pillow/\n  cause: error sending request for url (https://pypi.org/simple/pillow/)\n  cause: client error (Connect)\n  cause: dns error\n  cause: No such host is known. (os error 11001)",
+   "stdout_tail": ""
+  }
+ }
+}

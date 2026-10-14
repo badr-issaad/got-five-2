@@ -1,0 +1,238 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Got Five! (Trouve Cinq)",
+  "tagline": "Déduisez vos 5 numéros secrets avant tout le monde !",
+  "singlePlayer": "Partie Solo (vs IA)",
+  "multiplayer": "Multijoueur en ligne",
+  "tableMode": "Mode Table & Papier",
+  "tutorial": "Tutoriel interactif & Règles",
+  "settings": "Paramètres",
+  "printMaterials": "Fiches à imprimer (PDF)",
+  "language": "Langue",
+  "arabic": "العربية",
+  "english": "English",
+  "french": "Français",
+  "theme": "Thème",
+  "darkTheme": "Mode Sombre",
+  "lightTheme": "Mode Clair",
+  "systemTheme": "Thème Système",
+  "soundEffects": "Effets sonores",
+  "hapticFeedback": "Vibrations haptiques",
+  "reducedMotion": "Mouvements réduits",
+  "accessibilityShapes": "Symboles géométriques",
+  "accessibilityDesc": "Affiche des formes (triangle, cercle, carré, losange, étoile) en plus des couleurs pour l'accessibilité daltonienne.",
+  "newGame": "Nouvelle Partie",
+  "resumeGame": "Reprendre la partie",
+  "abandonGame": "Abandonner la partie",
+  "abandonConfirm": "Voulez-vous vraiment abandonner la partie en cours ?",
+  "cancel": "Annuler",
+  "confirm": "Confirmer",
+  "close": "Fermer",
+  "back": "Retour",
+  "done": "Terminé",
+  "selectOpponents": "Configurer la partie",
+  "playerCount": "Nombre total de joueurs",
+  "yourName": "Votre Pseudo",
+  "aiDifficulty": "Niveau de l'IA",
+  "easy": "Facile",
+  "medium": "Moyen",
+  "hard": "Difficile",
+  "startGame": "Lancer la partie",
+  "yourTurn": "C'est votre tour !",
+  "waitingFor": "Au tour de : {name}",
+  "@waitingFor": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "step1Reveal": "Étape 1 : Révéler une tuile",
+  "step1RevealDesc": "Choisissez une couleur pour piocher une tuile de la réserve et la placer au centre.",
+  "step2Clue": "Étape 2 : Demander un indice",
+  "step2ClueDesc": "Choisissez 1 des 6 tuiles centrales pour un indice de TRI (Ordre) ou de COMPARAISON (Points).",
+  "poolTiles": "Tuiles Communes au Centre",
+  "yourRack": "Votre Chevalet (Ordre croissant)",
+  "opponents": "Chevalets des adversaires",
+  "cluesReceived": "Vos Indices collectés",
+  "sortClue": "Indice de Tri (Ordre)",
+  "compareClue": "Indice de Comparaison (Points)",
+  "sortClueDesc": "Indique la position de la tuile parmi vos 5 numéros secrets dans 1 des 6 emplacements possibles.",
+  "compareClueDesc": "Répond par Oui ou Non si la tuile a le même nombre de points qu'une tuile de votre chevalet.",
+  "selectRackSlotToCompare": "Choisissez la tuile de votre chevalet à comparer :",
+  "declareGotFive": "Annoncer \"GOT FIVE !\"",
+  "declareGotFiveTitle": "Déclaration Got Five !",
+  "declareGotFiveDesc": "Attention : Vous n'avez qu'UNE SEULE TENTATIVE ! Réponse exacte = Victoire immédiate. Moindre erreur = Élimination.",
+  "enterYourFiveNumbers": "Entrez vos 5 numéros dans l'ordre strictement croissant :",
+  "submitGuess": "Valider la déclaration",
+  "incorrectGuessFormat": "Les numéros doivent être compris entre 1 et 60 et strictement croissants.",
+  "gameOver": "Fin de Partie",
+  "victory": "🎉 Victoire !",
+  "eliminated": "❌ Éliminé !",
+  "congratulations": "Félicitations ! Vous avez déduit vos 5 numéros secrets avec succès !",
+  "eliminationNotice": "Malheureusement, votre déclaration était incorrecte. Vous êtes éliminé.",
+  "lastPlayerStanding": "Tous les autres joueurs ont été éliminés. Vous remportez la partie !",
+  "playAgain": "Rejouer",
+  "backToHome": "Retour à l'accueil",
+  "deductionSheet": "Feuille de Déduction",
+  "crossOut": "Barrer",
+  "undo": "Annuler",
+  "clearAll": "Effacer tout",
+  "notes": "Notes",
+  "candidateNumbers": "Numéros candidats",
+  "green": "Vert",
+  "pink": "Rose",
+  "blue": "Bleu",
+  "red": "Rouge",
+  "yellow": "Jaune",
+  "dots": "{count, plural, =1{1 point} other{{count} points}}",
+  "@dots": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "slotBefore": "Avant tout (< {color})",
+  "@slotBefore": {
+    "placeholders": {
+      "color": { "type": "String" }
+    }
+  },
+  "slotBetween": "Entre {color1} et {color2}",
+  "@slotBetween": {
+    "placeholders": {
+      "color1": { "type": "String" },
+      "color2": { "type": "String" }
+    }
+  },
+  "slotAfter": "Après tout (> {color})",
+  "@slotAfter": {
+    "placeholders": {
+      "color": { "type": "String" }
+    }
+  },
+  "matchYes": "OUI (Même nombre de points)",
+  "matchNo": "NON (Points différents)",
+  "tutorialTitle": "Comment jouer à Got Five !",
+  "tutorialStep1Title": "Objectif & Chevalets",
+  "tutorialStep1Desc": "Soyez le premier à déduire les 5 numéros secrets de votre chevalet. Vos tuiles sont toujours classées dans l'ordre strictement croissant. Vous voyez leurs couleurs, mais PAS leurs numéros !",
+  "tutorialStep2Title": "Adversaires & Réserve centrale",
+  "tutorialStep2Desc": "Vous voyez les numéros et points de TOUS vos adversaires, ainsi que les tuiles du centre. Barrez-les immédiatement sur votre feuille de déduction !",
+  "tutorialStep3Title": "Étape 1 : Révéler une tuile",
+  "tutorialStep3Desc": "À votre tour, choisissez une couleur pour révéler une tuile de la réserve et l'ajouter au centre (6 tuiles au total).",
+  "tutorialStep4Title": "Étape 2 : Demander un indice",
+  "tutorialStep4Desc": "Choisissez 1 des 6 tuiles centrales pour un indice de Tri ou de Comparaison. La tuile rejoint ensuite votre espace d'indices permanent.",
+  "tutorialStep5Title": "La déclaration finale",
+  "tutorialStep5Desc": "Quand vous êtes prêt, annoncez \"GOT FIVE !\" et énoncez vos 5 numéros secrets dans l'ordre croissant. Une seule tentative par partie !",
+  "nextStep": "Étape suivante",
+  "previousStep": "Étape précédente",
+  "finishTutorial": "Compris ! Jouons",
+  "pdfSheetsTitle": "Matériel imprimable (PDF)",
+  "pdfA4ColorSheet": "Feuille de déduction A4 Couleur",
+  "pdfBwEcoSheet": "Feuille économique Noir & Blanc",
+  "pdfRulesSummary": "Résumé officiel des règles (A4)",
+  "pdfCutoutTiles": "Planche de tuiles et chevalets à découper",
+  "downloadOrPrint": "Imprimer / Exporter PDF",
+  "offlineReady": "Généré 100% hors-ligne dans l'application",
+  "onlineRooms": "Salons Multijoueur en Ligne",
+  "roomCode": "Code du salon",
+  "createRoom": "Créer un salon",
+  "joinRoom": "Rejoindre avec un code",
+  "waitingForPlayers": "En attente des amis...",
+  "ready": "Prêt",
+  "startOnlineMatch": "Démarrer la partie",
+  "tabletopPaperModeTitle": "Modes Table & Papier",
+  "tabletopModeADesc": "Téléphones connectés + Papier : Jouez numériquement tout en notant vos déductions sur votre feuille papier imprimée.",
+  "tabletopModeBDesc": "Téléphone unique partagé : Un seul téléphone gère la partie et tourne entre les joueurs avec un écran de confidentialité.",
+  "tabletopModeCDesc": "Assistant pour tuiles physiques : Le téléphone calcule les indices pour vos tuiles physiques réelles sans tricher.",
+  "passPhoneTo": "Passez le téléphone à : {player}",
+  "@passPhoneTo": {
+    "placeholders": {
+      "player": { "type": "String" }
+    }
+  },
+  "privacyScreenNotice": "Touchez quand vous avez le téléphone en main, à l'abri des regards adverses.",
+  "revealMyTurn": "C'est {player} - Commencer mon tour",
+  "@revealMyTurn": {
+    "placeholders": {
+      "player": { "type": "String" }
+    }
+  },
+  "myGuesses": "Mes hypothèses",
+  "announceNumbers": "Annoncer mes numéros",
+  "showPosition": "Montrer sa position",
+  "compareDots": "Comparer les points",
+  "confirmCompare": "Confirmer la comparaison",
+  "chooseColorToReveal": "Choisissez une couleur pour révéler une tuile.",
+  "chooseSharedTile": "Choisissez une tuile partagée.",
+  "chooseClueAction": "Montrez sa position, ou comparez ses points.",
+  "tapTileToCompare": "Touchez l'une de vos 5 tuiles cachées pour comparer les points.",
+  "clueSavedUpdateNotes": "Votre indice est enregistré. Mettez à jour vos notes.",
+  "sameDots": "Même nombre de points",
+  "differentDots": "Nombre de points différent",
+  "posFirst": "1re",
+  "posSecond": "2e",
+  "posThird": "3rd",
+  "posFourth": "4e",
+  "posFifth": "5e",
+  "gapBeforeFirst": "Avant la 1re",
+  "gapBetween": "Entre {pos1} et {pos2}",
+  "@gapBetween": {
+    "placeholders": {
+      "pos1": { "type": "String" },
+      "pos2": { "type": "String" }
+    }
+  },
+  "gapAfterLast": "Après la 5e",
+  "orderClueBeforeFirstDesc": "{number} est avant votre 1re tuile ({color}). Vos 5 numéros sont plus grands que {number}.",
+  "@orderClueBeforeFirstDesc": {
+    "placeholders": {
+      "number": { "type": "int" },
+      "color": { "type": "String" }
+    }
+  },
+  "orderClueBetweenDesc": "{number} est entre votre {pos1} ({color1}) et votre {pos2} ({color2}). Vos {count1} premier(s) numéro(s) sont plus petits que {number} ; vos {count2} restant(s) sont plus grands.",
+  "@orderClueBetweenDesc": {
+    "placeholders": {
+      "number": { "type": "int" },
+      "pos1": { "type": "String" },
+      "color1": { "type": "String" },
+      "pos2": { "type": "String" },
+      "color2": { "type": "String" },
+      "count1": { "type": "int" },
+      "count2": { "type": "int" }
+    }
+  },
+  "orderClueAfterLastDesc": "{number} est après votre 5e tuile ({color}). Vos 5 numéros sont plus petits que {number}.",
+  "@orderClueAfterLastDesc": {
+    "placeholders": {
+      "number": { "type": "int" },
+      "color": { "type": "String" }
+    }
+  },
+  "compareClueSameDesc": "La tuile #{number} ({dots, plural, =1{1 point} other{{dots} points}}) a le MÊME nombre de points que votre {pos} tuile ({color}).",
+  "@compareClueSameDesc": {
+    "placeholders": {
+      "number": { "type": "int" },
+      "dots": { "type": "int" },
+      "pos": { "type": "String" },
+      "color": { "type": "String" }
+    }
+  },
+  "compareClueDiffDesc": "La tuile #{number} ({dots, plural, =1{1 point} other{{dots} points}}) a un nombre de points DIFFÉRENT de votre {pos} tuile ({color}).",
+  "@compareClueDiffDesc": {
+    "placeholders": {
+      "number": { "type": "int" },
+      "dots": { "type": "int" },
+      "pos": { "type": "String" },
+      "color": { "type": "String" }
+    }
+  },
+  "confirmAnnouncementTitle": "Confirmer vos cinq numéros",
+  "oneAttemptWarning": "Attention : vous n'avez qu'UNE SEULE tentative. Si tout est correct, vous gagnez. Si une seule erreur, vous êtes éliminé.",
+  "confirmSubmission": "Valider l'annonce finale",
+  "allCluesInGap": "Indices dans cette position ({count})",
+  "playerRevealedTile": "{player} a révélé le {number}",
+  "computer": "L'ordinateur",
+  "inReserveCount": "{count} en réserve",
+  "comparedWithSlot": "Comparé à la position #{slot}",
+  "comparisonCluesForSlot": "Indices de comparaison pour la position #{slot} ({count})",
+  "targetHiddenTile": "Tuile ciblée : Position #{slot} ({color})"
+}

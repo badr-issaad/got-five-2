@@ -1,0 +1,238 @@
+{
+  "@@locale": "ar",
+  "appTitle": "Got Five! (خمسة أدلة)",
+  "tagline": "استنتج أرقامك الخمسة المخفية قبل الجميع!",
+  "singlePlayer": "لعب فردي (ضد الكمبيوتر)",
+  "multiplayer": "اللعب الجماعي عبر الإنترنت",
+  "tableMode": "وضع الطاولة والورق المطبوع",
+  "tutorial": "التدريب التفاعلي والقواعد",
+  "settings": "الإعدادات",
+  "printMaterials": "أوراق اللعب والطباعة (PDF)",
+  "language": "اللغة",
+  "arabic": "العربية",
+  "english": "English",
+  "french": "Français",
+  "theme": "المظهر والسمة",
+  "darkTheme": "الوضع الداكن",
+  "lightTheme": "الوضع الفاتح",
+  "systemTheme": "سمة النظام",
+  "soundEffects": "المؤثرات الصوتية",
+  "hapticFeedback": "الاهتزاز التفاعلي",
+  "reducedMotion": "تقليل الحركة والانتقالات",
+  "accessibilityShapes": "رموز الأشكال الهندسية",
+  "accessibilityDesc": "عرض رموز هندسية واضحة (مثلث، دائرة، مربع، معين، نجمة) بجانب الألوان لمراعاة عمى الألوان.",
+  "newGame": "مباراة جديدة",
+  "resumeGame": "استئناف المباراة",
+  "abandonGame": "مغادرة المباراة الحالية",
+  "abandonConfirm": "هل أنت متأكد من رغبتك في إنهاء المباراة الحالية والخروج؟",
+  "cancel": "إلغاء",
+  "confirm": "تأكيد",
+  "close": "إغلاق",
+  "back": "رجوع",
+  "done": "تم",
+  "selectOpponents": "إعداد الخصوم والمباراة",
+  "playerCount": "عدد اللاعبين الإجمالي",
+  "yourName": "اسمك المستعار",
+  "aiDifficulty": "مستوى ذكاء الكمبيوتر",
+  "easy": "سهل",
+  "medium": "متوسط",
+  "hard": "صعب (تحدي استنتاجي)",
+  "startGame": "بدء المباراة",
+  "yourTurn": "دورك الآن!",
+  "waitingFor": "الدور الحالي: {name}",
+  "@waitingFor": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "step1Reveal": "الخطوة 1: كشف بلاطة من الاحتياطي",
+  "step1RevealDesc": "اختر لونًا لسحب بلاطة عشوائية من الاحتياطي وإضافتها إلى المنطقة المشتركة.",
+  "step2Clue": "الخطوة 2: طلب دليل استنتاجي",
+  "step2ClueDesc": "اختر واحدة من البلاطات الست في المنطقة المشتركة واطلب إما دليل ترتيب أو مقارنة نقاط.",
+  "poolTiles": "البلاطات المشتركة في الوسط",
+  "yourRack": "حاملك الخاص (مرتب تصاعديًا من الأصغر للأكبر)",
+  "opponents": "حوامل الخصوم",
+  "cluesReceived": "سلة الأدلة المجمّعة لديك",
+  "sortClue": "دليل الترتيب (موقع البلاطة)",
+  "compareClue": "دليل مقارنة النقاط",
+  "sortClueDesc": "يحدد موقع البلاطة بدقة بين أرقامك الخمسة المخفية في واحد من 6 مواضع ممكنة.",
+  "compareClueDesc": "يعطيك إجابة نعم أو لا لتطابق عدد نقاط هذه البلاطة مع إحدى بلاطات حاملك.",
+  "selectRackSlotToCompare": "اختر البلاطة من حاملك لمقارنة عدد نقاطها:",
+  "declareGotFive": "إعلان الحل: \"GOT FIVE!\"",
+  "declareGotFiveTitle": "إعلان حل الأرقام الخمسة",
+  "declareGotFiveDesc": "تنبيه مهم: لديك محاولة واحدة فقط في المباراة! الحل الصحيح يحقق الفوز الفوري، والخطأ يؤدي إلى الإقصاء المباشر.",
+  "enterYourFiveNumbers": "أدخل أرقامك الخمسة بالترتيب التصاعدي الدقيق:",
+  "submitGuess": "تأكيد وإعلان الحل",
+  "incorrectGuessFormat": "يجب أن تكون الأرقام بين 1 و 60 ومرتبة تصاعديًا بدقة ودون تكرار.",
+  "gameOver": "نهاية المباراة",
+  "victory": "🎉 مبروك! فوز مستحق!",
+  "eliminated": "❌ تم إقصاؤك!",
+  "congratulations": "أحسنت صنعًا! لقد استنتجت أرقامك الخمسة المخفية بنجاح وفزت بالمباراة!",
+  "eliminationNotice": "للأسف، إعلانك تضمن أرقامًا غير صحيحة فتم إقصاؤك من اللعب.",
+  "lastPlayerStanding": "أُقصي جميع المنافسين الآخرين فأصبحت الفائز تلقائيًا!",
+  "playAgain": "لعب مرة أخرى",
+  "backToHome": "العودة للقائمة الرئيسية",
+  "deductionSheet": "لوحة الاستنتاج",
+  "crossOut": "شطب",
+  "undo": "تراجع",
+  "clearAll": "مسح الكل",
+  "notes": "الملاحظات",
+  "candidateNumbers": "الأرقام المرشحة",
+  "green": "الأخضر",
+  "pink": "الوردي",
+  "blue": "الأزرق",
+  "red": "الأحمر",
+  "yellow": "الأصفر",
+  "dots": "{count, plural, =1{نقطة واحدة} =2{نقطتان} few{{count} نقاط} many{{count} نقطة} other{{count} نقطة}}",
+  "@dots": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "slotBefore": "قبل الجميع (أصغر من {color})",
+  "@slotBefore": {
+    "placeholders": {
+      "color": { "type": "String" }
+    }
+  },
+  "slotBetween": "بين {color1} و {color2}",
+  "@slotBetween": {
+    "placeholders": {
+      "color1": { "type": "String" },
+      "color2": { "type": "String" }
+    }
+  },
+  "slotAfter": "بعد الجميع (أكبر من {color})",
+  "@slotAfter": {
+    "placeholders": {
+      "color": { "type": "String" }
+    }
+  },
+  "matchYes": "نعم (تتطابق في عدد النقاط)",
+  "matchNo": "لا (تختلف في عدد النقاط)",
+  "tutorialTitle": "كيف تلعب Got Five! خطوة بخطوة",
+  "tutorialStep1Title": "هدف اللعبة وحوامل البلاطات",
+  "tutorialStep1Desc": "كن أول من يستنتج أرقامه الخمسة المخفية على حامله. بلاطاتك الخمس مصفوفة تصاعديًا دائمًا من الأصغر إلى الأكبر، وترى ألوانها فقط دون أرقامها أو نقاطها!",
+  "tutorialStep2Title": "رؤية الخصوم والمنطقة المشتركة",
+  "tutorialStep2Desc": "تستطيع رؤية أرقام ونقاط جميع بلاطات المنافسين المكشوفة أمامك، بالإضافة إلى البلاطات الخمس المشتركة في الوسط. اشطب هذه الأرقام فورًا من لوحة الاستنتاج!",
+  "tutorialStep3Title": "الخطوة الأولى: كشف بلاطة",
+  "tutorialStep3Desc": "في بداية دورك، اختر لونًا لتكشف بلاطة عشوائية منه من الاحتياطي وتضعها في الوسط، فيصبح في الوسط 6 بلاطات.",
+  "tutorialStep4Title": "الخطوة الثانية: طلب دليل",
+  "tutorialStep4Desc": "اختر واحدة من بلاطات الوسط الست واطلب إما ترتيبها بين أرقامك (Sort) أو مقارنة عدد نقاطها مع إحدى بلاطاتك (Compare). ثم تنتقل البلاطة لسلة أدلتك الدائمة.",
+  "tutorialStep5Title": "إعلان الحل والفوز أو الإقصاء",
+  "tutorialStep5Desc": "عندما تتأكد من أرقامك، اضغط على إعلان الحل واذكر أرقامك الخمسة بالترتيب التصاعدي. لديك محاولة واحدة فقط: الصحة تعني الفوز الفوري، والخطأ يعني الإقصاء!",
+  "nextStep": "الخطوة التالية",
+  "previousStep": "الخطوة السابقة",
+  "finishTutorial": "فهمت القواعد! فلنبدأ اللعب",
+  "pdfSheetsTitle": "ملفات اللعب والطباعة (PDF)",
+  "pdfA4ColorSheet": "لوحة استنتاج A4 ملونة كاملة",
+  "pdfBwEcoSheet": "نسخة بالأبيض والأسود موفرة للحبر",
+  "pdfRulesSummary": "ملخص القواعد الرسمية المطبوع",
+  "pdfCutoutTiles": "بلاطات وحوامل ورقية قابلة للقص والطي",
+  "downloadOrPrint": "طباعة / تصدير PDF",
+  "offlineReady": "توليد محلي فوري دون الحاجة للإنترنت",
+  "onlineRooms": "غرف اللعب عبر الإنترنت",
+  "roomCode": "رمز الغرفة",
+  "createRoom": "إنشاء غرفة جديدة",
+  "joinRoom": "الانضمام برمز الغرفة",
+  "waitingForPlayers": "في انتظار انضمام الأصدقاء...",
+  "ready": "جاهز للعب",
+  "startOnlineMatch": "بدء مباراة الإنترنت",
+  "tabletopPaperModeTitle": "أوضاع اللعب على الطاولة والورق",
+  "tabletopModeADesc": "أجهزة متصلة مع أوراق مطبوعة: تلعبون عبر الهواتف مع تدوين الملاحظات على لوحات A4 الورقية بدل الشاشة.",
+  "tabletopModeBDesc": "هاتف واحد مشترك: يدير هاتف واحد المباراة ويُمرر بين اللاعبين مع شاشة خصوصية لمنع تلصص الخصوم.",
+  "tabletopModeCDesc": "مساعد للبلاطات الفعلية: استخدم الهاتف كحاسب للأدلة لبلاطاتك وحواملك الحقيقية دون كشف الأرقام لأصحابها.",
+  "passPhoneTo": "مرر الهاتف الآن إلى: {player}",
+  "@passPhoneTo": {
+    "placeholders": {
+      "player": { "type": "String" }
+    }
+  },
+  "privacyScreenNotice": "اضغط على الزر أدناه عندما يكون الهاتف بيدك وحدك وبعيدًا عن أعين المنافسين.",
+  "revealMyTurn": "أنا {player} - ابدأ دوري الآن",
+  "@revealMyTurn": {
+    "placeholders": {
+      "player": { "type": "String" }
+    }
+  },
+  "myGuesses": "تخميناتي",
+  "announceNumbers": "إعلان أرقامي",
+  "showPosition": "تحديد الموضع",
+  "compareDots": "مقارنة النقاط",
+  "confirmCompare": "تأكيد المقارنة",
+  "chooseColorToReveal": "اختر لوناً للكشف عن بلاطة.",
+  "chooseSharedTile": "اختر بلاطة مشتركة.",
+  "chooseClueAction": "حدد موضعها أو قارن نقاطها.",
+  "tapTileToCompare": "المس إحدى بلاطاتك الخمس لمقارنة نقاطها.",
+  "clueSavedUpdateNotes": "تم حفظ دليلك. حدّث ملاحظاتك الآن.",
+  "sameDots": "نفس عدد النقاط",
+  "differentDots": "عدد نقاط مختلف",
+  "posFirst": "الأولى",
+  "posSecond": "الثانية",
+  "posThird": "الثالثة",
+  "posFourth": "الرابعة",
+  "posFifth": "الخامسة",
+  "gapBeforeFirst": "قبل الأولى",
+  "gapBetween": "بين {pos1} و{pos2}",
+  "@gapBetween": {
+    "placeholders": {
+      "pos1": { "type": "String" },
+      "pos2": { "type": "String" }
+    }
+  },
+  "gapAfterLast": "بعد الخامسة",
+  "orderClueBeforeFirstDesc": "الرقم {number} يقع قبل بلاطتك الأولى ({color}). جميع أرقامك الخمسة أكبر من {number}.",
+  "@orderClueBeforeFirstDesc": {
+    "placeholders": {
+      "number": { "type": "int" },
+      "color": { "type": "String" }
+    }
+  },
+  "orderClueBetweenDesc": "الرقم {number} يقع بين بلاطتك الـ{pos1} ({color1}) والـ{pos2} ({color2}). أول {count1} أرقام أصغر من {number} وباقي أرقامك ({count2}) أكبر.",
+  "@orderClueBetweenDesc": {
+    "placeholders": {
+      "number": { "type": "int" },
+      "pos1": { "type": "String" },
+      "color1": { "type": "String" },
+      "pos2": { "type": "String" },
+      "color2": { "type": "String" },
+      "count1": { "type": "int" },
+      "count2": { "type": "int" }
+    }
+  },
+  "orderClueAfterLastDesc": "الرقم {number} يقع بعد بلاطتك الخامسة ({color}). جميع أرقامك الخمسة أصغر من {number}.",
+  "@orderClueAfterLastDesc": {
+    "placeholders": {
+      "number": { "type": "int" },
+      "color": { "type": "String" }
+    }
+  },
+  "compareClueSameDesc": "البلاطة #{number} ({dots} نقاط) لها نفس عدد نقاط بلاطتك الـ{pos} ({color}).",
+  "@compareClueSameDesc": {
+    "placeholders": {
+      "number": { "type": "int" },
+      "dots": { "type": "int" },
+      "pos": { "type": "String" },
+      "color": { "type": "String" }
+    }
+  },
+  "compareClueDiffDesc": "البلاطة #{number} ({dots} نقاط) لها عدد نقاط مختلف عن بلاطتك الـ{pos} ({color}).",
+  "@compareClueDiffDesc": {
+    "placeholders": {
+      "number": { "type": "int" },
+      "dots": { "type": "int" },
+      "pos": { "type": "String" },
+      "color": { "type": "String" }
+    }
+  },
+  "confirmAnnouncementTitle": "تأكيد أرقامك الخمسة",
+  "oneAttemptWarning": "تحذير: لديك محاولة واحدة فقط في اللعبة بأكملها. إذا كانت الأرقام صحيحة تفوز فوراً، وإذا كان أي رقم خاطئاً تُستبعد.",
+  "confirmSubmission": "تأكيد الإعلان النهائي",
+  "allCluesInGap": "الأدلة في هذا الموضع ({count})",
+  "playerRevealedTile": "{player} كشف الرقم {number}",
+  "computer": "الكمبيوتر",
+  "inReserveCount": "{count} في الاحتياطي",
+  "comparedWithSlot": "مقارن مع الخانة #{slot}",
+  "comparisonCluesForSlot": "أدلة المقارنة للخانة #{slot} ({count})",
+  "targetHiddenTile": "البلاطة المستهدفة: الخانة #{slot} ({color})"
+}
