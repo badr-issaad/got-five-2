@@ -171,13 +171,13 @@ void main() {
                 manualCrossedOutNumbers: manualNotes,
                 autoRevealedNumbers: autoRevealed,
                 canUndo: true,
-                onToggleNumber: (num) {
+                onToggleNumber: (number) {
                   toggleCallCount++;
                   setState(() {
-                    if (manualNotes.contains(num)) {
-                      manualNotes.remove(num);
+                    if (manualNotes.contains(number)) {
+                      manualNotes.remove(number);
                     } else {
-                      manualNotes.add(num);
+                      manualNotes.add(number);
                     }
                   });
                 },

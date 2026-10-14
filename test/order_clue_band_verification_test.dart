@@ -34,7 +34,7 @@ void main() {
               guesses: const ['', '', '', '', ''],
               autoFilledSlots: const {},
               exhaustedColors: const {},
-              onGuessChanged: (_, __) {},
+              onGuessChanged: (_, _) {},
             ),
           ),
         ),

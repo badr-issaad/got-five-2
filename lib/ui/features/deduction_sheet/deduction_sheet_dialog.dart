@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import '../../../domain/models/game_state.dart';
-import '../../../domain/models/tile.dart';
 import '../../../l10n/app_localizations.dart';
 import '../../core/theme.dart';
 import '../../widgets/compact_deduction_sheet.dart';
-import '../../widgets/tile_widget.dart';
 
 class DeductionSheetDialog extends StatefulWidget {
   final GameState state;

@@ -271,7 +271,6 @@ class _CompactCell extends StatelessWidget {
   final VoidCallback? onTap;
 
   const _CompactCell({
-    super.key,
     required this.tile,
     required this.colorVal,
     required this.isCrossed,

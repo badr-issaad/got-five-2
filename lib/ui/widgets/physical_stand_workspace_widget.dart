@@ -918,7 +918,7 @@ class PhysicalStandWorkspaceWidget extends StatelessWidget {
           child: ListView.separated(
             shrinkWrap: true,
             itemCount: clues.length,
-            separatorBuilder: (_, __) => const SizedBox(height: 8),
+            separatorBuilder: (_, _) => const SizedBox(height: 8),
             itemBuilder: (ctx, index) {
               final clue = clues[index];
               final desc = ClueExplanationHelper.explainSortClue(
@@ -1108,7 +1108,7 @@ class PhysicalStandWorkspaceWidget extends StatelessWidget {
                 child: ListView.separated(
                   shrinkWrap: true,
                   itemCount: clues.length,
-                  separatorBuilder: (_, __) => const SizedBox(height: 8),
+                  separatorBuilder: (_, _) => const SizedBox(height: 8),
                   itemBuilder: (ctx, index) {
                     final clue = clues[index];
                     final clueColorVal = AppColors.colorForTileColor(clue.tile.color);

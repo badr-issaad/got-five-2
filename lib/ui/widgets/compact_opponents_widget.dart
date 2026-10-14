@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../../domain/models/player.dart';
-import '../../l10n/app_localizations.dart';
 import 'tile_widget.dart';
 
 class CompactOpponentsWidget extends StatefulWidget {
@@ -22,7 +21,6 @@ class _CompactOpponentsWidgetState extends State<CompactOpponentsWidget> {
 
   @override
   Widget build(BuildContext context) {
-    final l10n = AppLocalizations.of(context)!;
     final theme = Theme.of(context);
     final isDark = theme.brightness == Brightness.dark;
 

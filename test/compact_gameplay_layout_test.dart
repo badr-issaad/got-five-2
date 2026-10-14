@@ -144,8 +144,6 @@ void main() {
 
       // Verify rack and guesses are pinned and visible simultaneously
       final guessesCenter = tester.getCenter(find.text('My Guesses')).dy;
-      final sheetTop = tester.getTopLeft(find.byType(CompactDeductionSheetWidget)).dy;
-      print('DEBUG EN: guessesCenter=$guessesCenter, sheetTop=$sheetTop');
       expect(guessesCenter, lessThan(640));
 
       // Verify deduction sheet cells are rendered
@@ -160,7 +158,6 @@ void main() {
       final firstCellCenter = tester.getCenter(sheetCells.at(0)).dy;
       final secondRowCellCenter = tester.getCenter(sheetCells.at(12)).dy;
       final thirdRowCellCenter = tester.getCenter(sheetCells.at(24)).dy;
-      print('DEBUG EN rows: r1=$firstCellCenter, r2=$secondRowCellCenter, r3=$thirdRowCellCenter');
       expect(firstCellCenter, lessThan(secondRowCellCenter));
       expect(secondRowCellCenter, lessThan(thirdRowCellCenter));
       expect(thirdRowCellCenter, lessThan(640));
@@ -203,7 +200,6 @@ void main() {
       final firstCellCenter = tester.getCenter(sheetCells.at(0)).dy;
       final secondRowCellCenter = tester.getCenter(sheetCells.at(12)).dy;
       final thirdRowCellCenter = tester.getCenter(sheetCells.at(24)).dy;
-      print('DEBUG AR rows: r1=$firstCellCenter, r2=$secondRowCellCenter, r3=$thirdRowCellCenter');
       expect(firstCellCenter, lessThan(secondRowCellCenter));
       expect(secondRowCellCenter, lessThan(thirdRowCellCenter));
       expect(thirdRowCellCenter, lessThan(640));
@@ -251,7 +247,6 @@ void main() {
       final r1 = tester.getCenter(sheetCells.at(0)).dy;
       final r2 = tester.getCenter(sheetCells.at(12)).dy;
       final r3 = tester.getCenter(sheetCells.at(24)).dy;
-      print('DEBUG Large Text rows: r1=$r1, r2=$r2, r3=$r3');
       expect(r1, lessThan(r2));
       expect(r2, lessThan(r3));
       expect(r3, lessThan(640));

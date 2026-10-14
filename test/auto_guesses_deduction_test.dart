@@ -3,8 +3,6 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:got_five_app/domain/engine/auto_guess_manager.dart';
 import 'package:got_five_app/domain/engine/game_engine.dart';
-import 'package:got_five_app/domain/models/game_state.dart';
-import 'package:got_five_app/domain/models/player.dart';
 import 'package:got_five_app/domain/models/tile.dart';
 import 'package:got_five_app/data/repositories/local_game_storage.dart';
 import 'package:got_five_app/ui/controllers/game_controller.dart';
